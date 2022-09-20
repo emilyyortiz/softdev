@@ -41,3 +41,26 @@ def array_front9(nums):
     if i == 9:
       return True
   return False
+
+def array123(nums):
+  for i in range(len(nums)-2):
+    if nums[i] == 1:
+      if nums[i+1] == 2:
+         if nums[i+2] == 3:
+           return True
+  return False
+
+def string_match(a, b):
+  output = 0
+  key = ""
+  other = ""
+  if len(a) < len(b):
+    key = a
+    other = b
+  else:
+    key = b
+    other = a
+  for i in range(len(key)-1):
+    if key[i:i+2] == other[i:i+2]:
+      output += 1
+  return output
