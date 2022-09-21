@@ -69,5 +69,36 @@ sum13([1, 1]) # → 2
 sum13([1, 2, 2, 1, 13]) # → 6
 
 def sum67(nums):
-    total = 0
-    #special case
+  total = 0
+  #counter
+  i = 0
+  while i < len(nums):
+    # if number not 6, add to total
+    if nums[i] != 6:
+      total += nums[i]
+      i += 1
+    # if number is 6
+    else:
+      # ignore it
+      i += 1
+      # keep ignoring numbers until u get to 7
+      while nums[i] != 7:
+        i += 1
+      # ignore the 7
+      i += 1
+  return total
+
+print(sum67([1, 2, 2])) # → 5
+sum67([1, 2, 2, 6, 99, 99, 7]) # → 5
+sum67([1, 1, 6, 7, 2]) # → 4
+
+def has22(nums):
+  for i in range(len(nums)-1):
+    # if current number and next one are both two, return true
+    if nums[i] == nums[i+1] == 2:
+      return True
+  return False
+
+print(has22([1, 2, 2])) # → True
+has22([1, 2, 1, 2]) # → False
+has22([2, 1, 2]) # → False
