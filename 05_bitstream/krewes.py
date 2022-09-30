@@ -1,12 +1,17 @@
-# Vivian Teo, Emily Ortiz
-# SoftDev
-# 
-# 2022-__-__
-# time spent:
+"""
+Vivian Teo, Emily Ortiz
+SoftDev
+K05 -- Populating Krewes Dictionary
+2022-09-29
+time spent: 2 hours
 
-# DISCO:
-# 
-# QCC:
+DISCO: We learned how to open files, read them into a string, create dictionaries,
+       add keys and values to dictionaries.
+
+QCC: Is there a more efficient list type to store three separate corresponding values?
+     What is a tuple and how do we use it?
+     Should the period keys be integers?
+"""
 
 import random
 
