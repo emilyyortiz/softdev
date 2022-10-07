@@ -7,26 +7,17 @@ import random as rng
 app = Flask(__name__) #create instance of class Flask
 
 @app.route("/")       #assign fxn to route
+def hello_world():
+    print("about to choose")
+    return choose()
+
+@app.route("/foo")       #assign fxn to route
+def hello_world2():
+    print("about to choose you PIKACHU!")
+    return choose()
+
 
 def choose():
-    occupation = open("occupations.csv").read() #reading the csv file into a string
-
-    occupation = occupation.split("\n") #split each new line 
-    occupation.pop(0) #delete the heading
-    occupation.pop(len(occupation)-1) #delete the extra empty line
-    total = occupation.pop(len(occupation)-1) #delete the total of the values and store value
-
-    #create dictionary
-    jobs = {}
-    for x in occupation:
-        job = x.rsplit(",", 1)
-        jobs[job[0]] = job[1]
-    
-    vals = list(jobs.values())
-    #convert the values into floats
-    for x in range(0, len(vals)):
-        vals[x] = float(vals[x])
-
     sort_jobs = {}
     sort_jobs = jobs
 
@@ -47,6 +38,27 @@ def choose():
     for key in sort_jobs:
         ret_val = ret_val + "<br>" + key
     return ret_val
+
+print("starting csv sorting")
+occupation = open("occupations.csv").read() #reading the csv file into a string
+print("opened csv file")
+
+occupation = occupation.split("\n") #split each new line 
+occupation.pop(0) #delete the heading
+occupation.pop(len(occupation)-1) #delete the extra empty line
+total = occupation.pop(len(occupation)-1) #delete the total of the values and store value
+
+#create dictionary
+jobs = {}
+for x in occupation:
+    job = x.rsplit(",", 1)
+    jobs[job[0]] = job[1]
+
+vals = list(jobs.values())
+#convert the values into floats
+for x in range(0, len(vals)):
+    vals[x] = float(vals[x])
+        
 
 if __name__ == "__main__":  # true if this file NOT imported
     app.debug = True        # enable auto-reload upon code change
