@@ -1,9 +1,9 @@
 '''
 Drowning Jelleyfish: Jing Feng, Emily Ortiz, Lauren Lee
 SoftDev
-K08 -- 
+K08 -- Putting it Together
 2022-10-06
-time spent: <elapsed time in hours, rounded to nearest tenth>
+time spent: 1.5
 '''
 #Error message when running in Firefox when running in thonny
 #Firefox can’t establish a connection to the server at 127.0.0.1:5000

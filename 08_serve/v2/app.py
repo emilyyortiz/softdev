@@ -1,9 +1,9 @@
 '''
 Drowning Jelleyfish: Jing Feng, Emily Ortiz, Lauren Lee
 SoftDev
-K08 -- 
+K08 -- Putting it Together
 2022-10-06
-time spent: <elapsed time in hours, rounded to nearest tenth>
+time spent: 1.5
 '''
 
 from flask import Flask

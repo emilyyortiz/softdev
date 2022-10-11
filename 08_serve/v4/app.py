@@ -1,6 +1,10 @@
-# Clyde 'Thluffy' Sinclair
-# SoftDev
-# Oct 2022
+'''
+Drowning Jelleyfish: Jing Feng, Emily Ortiz, Lauren Lee
+SoftDev
+K08 -- Putting it Together
+2022-10-06
+time spent: 1.5
+'''
 
 from flask import Flask
 app = Flask(__name__) #create instance of class Flask
