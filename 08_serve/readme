@@ -1,0 +1,35 @@
+Drowning Jelleyfish: Jing Feng, Emily Ortiz, Lauren Lee
+SoftDev
+K08 -- Putting it Together
+2022-10-06
+time spent: 1.5
+
+v0:
+* app =  Flask(__name__) --> similar to java syntx
+* @app.route("/") --> decorator tells  you where the function will return, assign fxn to route
+* hello_world() is right under the decorator and bound to the decorator, will be called without a call
+* print statements in terminal
+* return prints of webpage
+
+v2: 
+* multiple strings can be printed in the terminal
+
+v3:
+* Error message when running in Firefox when running in thonny
+    * Firefox can’t establish a connection to the server at 127.0.0.1:5000
+    * Message in thonny: /usr/bin/python3: No module named thonny.plugins.cpython.app
+    * thonny stops running program
+    * website works when running in terminal
+* app.debug = True refreshes the webapge everytime something in the source code if changed
+
+
+V4:
+* if __name__ == "_main__" is true if this file is NOT imported
+    what does this mean?
+
+Our app.py:
+import csv --> using csv module to read csv file
+    * we want to read the csv one time
+    * to do this, write it after the function under the decorator
+    * the script is run one time at the python3 app.py command
+* function right under the decorator is called without explicit calling. All functions under need to be called
