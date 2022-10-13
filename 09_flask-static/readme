@@ -1,0 +1,18 @@
+Drowning Jelleyfish: Jing Feng, Emily Ortiz, Lauren Lee 
+SoftDev
+K09 -- Some Things Never Change
+2022-10-11
+time spent: 
+    
+DISCO
+* Foo: prompts download of the file foo and returns the contents
+* Foo.html Returns a webpage with contents of html file "Is this plaintext, though" 
+* The link case sensitive
+* Format comments in HTML like this:
+
+<!--
+Comment goes here in HTML
+-->
+
+QCC
+* Do static webpages need to be in static folder?
