@@ -1,0 +1,25 @@
+Drowning Jelleyfish: Jing Feng, Emily Ortiz, Lauren Lee 
+SoftDev
+K09 -- Just Plug It In
+2022-10-13
+time spent: 0.5
+
+Q0: What will happen if you remove render_template from this line? (log your prediction before you pull the trigger...)
+A0: (prediction) render_template Function is not defined, error message in terminal
+
+Q1: Can all of your teammates confidently predict the URL to use to load this page?
+A1: home address/my_foist_template
+
+Q2: What is the significance of each argument? Simplest, most concise answer best.
+A2: For each variable in {} in HTML there will be a correspnding string stored in variable
+ Output in website is whatever is stored in the variable
+
+DISCO:
+ {% for item in collection %}
+ Logic control 
+
+ <head> tag contains metadata for webpage
+
+
+QCC:
+what are other capabilities of render_template other than assignin values to variables?
