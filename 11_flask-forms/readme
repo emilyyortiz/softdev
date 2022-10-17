@@ -1,3 +1,9 @@
+Drowning Jelleyfish: Lauren Lee, Emily Ortiz, Jing Feng
+SoftDev
+K11 -- Form(s) Like Voltron
+2022-10-14
+time spent: 0.5
+
 Predictions/Notable
 * request is a new thing we are importing
 * <form> tags in login.html
@@ -10,19 +16,18 @@ DISCO
 * <form action="/auth"> links front and back end
 * uncommenting lines 40-41 leads to an error message on the home webpage:
 
-werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
-KeyError: 'username'
+  werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+  KeyError: 'username'
 
-we suspect this is happening because on the login page, no text has been submitted yet, so there is no value for the name "username"
-
-* uncommenting lines 56-57 doesn't cause an error, the inputed username is displayed in terminal
-* GET is easier to debug bc when importing form response, the result is in the url
+  we suspect this is happening because on the login page, no text has been submitted yet, so there is no value for the name "username"
+* uncommenting lines 56-57 doesn't cause an error, the inputted username is displayed in terminal
+* GET is easier to debug bc when importing form response, the result is in the URL
 * POST is harder to debug
+* URL with GET (not commented out): http://127.0.0.1:5000/auth?username=drowning&sub1=Submit+Query
+* URL without GET (commented out): http://127.0.0.1:5000/auth?username=drowning&sub1=Submit+Query
+* ^ URLs are the same
 
-* URL with GET: http://127.0.0.1:5000/auth?username=drowning&sub1=Submit+Query
-* URL without GET (same): http://127.0.0.1:5000/auth?username=drowning&sub1=Submit+Query
+Hypothesis
+* Flask/Python automatically uses GET bc even with GET and POST methods commented out, this displays in terminal when the home page is refreshed:
 
-Prediction
-* Flask/Python automatically uses GET bc even with GET and POST methods commented out, this displays in terminal when the home page is refreshed
-
-http://127.0.0.1:5000/auth?username=drowning&sub1=Submit+Query
+  <insert message here>

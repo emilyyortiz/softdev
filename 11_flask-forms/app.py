@@ -32,15 +32,15 @@ PROTIP: Insert your own in-line comments
 def disp_loginpage():
     print("\n\n\n")
     print("***DIAG: this Flask obj ***")
-    print(app)
+    print(app) 
     print("***DIAG: request obj ***")
     print(request)
     print("***DIAG: request.args ***")
     print(request.args) #prints ImmutableMultiDict([])
     #print("***DIAG: request.args['username']  ***")
     #print(request.args['username'])
-    print("***DIAG: request.headers ***")
-    print(request.headers)
+    print("***DIAG: request.headers ***") 
+    print(request.headers) #information on the computer making the request
     return render_template( 'login.html' )
 
 
