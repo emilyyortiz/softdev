@@ -45,6 +45,6 @@ ID Attributes
 ```
 ### QCC
 * Lorem Ipsum Generator: https://loremipsum.io/
-* We had the line ```<link rel="stylesheet" type="css" href="mimic.css">``` within the head tags of our HTML file. The webpage wasn't displaying any styling. When we removed ```type="css"``` and our line was just ```<link rel="stylesheet" href="mimic.css">```, our webpage was being styled. Why did ```type=css``` prevent this? It was included in the example code on slide 5 of css.pdf.
+* We had the line ```<link rel="stylesheet" type="css" href="mimic.css">``` within the head tags of our HTML file. The webpage wasn't displaying any styling. When we removed ```type="css"``` and our line was just ```<link rel="stylesheet" href="mimic.css">```, our webpage was being styled. Why did ```type=css``` prevent this? It was included in the example code on slide 5 of css.pdf. --> ANSWERED ON PIAZZA
 * We could only get this far in an hour. We were working at a decent pace and weren't super stuck on anything, but a lot of these properties and formatting are unfamiliar to us.
 * Struggled with navigation bar, "de udda ting" ended up with a word on each line instead of the whole phrase as a line.
