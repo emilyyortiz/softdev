@@ -1,0 +1,45 @@
+thinkingEmoji: Gabriel Thompson, Emily Ortiz
+SoftDev
+K23: A Day of Noodling
+2022-11-28
+time spent:
+
+NOTEABLE
+* When a class has spaces in it, that is how you assign multiple classes to a tag.
+  <div class="container text-center">
+
+THE GRID
+One useful feature of Bootstrap is the Grid System. To implement this, you need nest div tags and add classes to them to specify how content should work/be styled. They should be nested in this order:
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        content
+      </div>
+
+CONTAINERS
+* text is automatically left justified
+* use class text-center to center the text
+* use class text-right to right justify the text
+
+COLUMNS JUSTIFYING
+* justify-content-start
+* justify-content-center
+* justify-content-end
+* justify-content-around
+  * width of displayable space is divided between number of columns
+  * each column is centered within it's portion
+* justify-content-between
+  * space in between each column is equal and there are no margins
+* justify-content-evenly
+  * displayable space is divided evenly between each column and margins
+
+COLUMN SIZING
+* using class col will automatically size that column
+* sizes range from col-1 to col-12
+* column classes indicate the number of template columns to span
+* if one column has a specified size, the others will automatically size accordingly
+
+FORMS
+* makes forms look nice
+* various other form inputs include select, checks & radios, range, etc.
