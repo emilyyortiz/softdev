@@ -2,14 +2,20 @@ thinkingEmoji: Emily Ortiz, Gabriel Thompson
 SoftDev
 K24: Mmmmm… Tasty! 
 2022-11-30
-time spent:
+time spent: 0.6hrs
 
 DISCO
+ * When you click the accordion titles, the URL changes to have a pound symbol followed by the id of the accordion tab at the end
+ * Foundation makes the page automatically responsive to resizing which is really cool
 
-QCC 
+QCC
+ * FEFs get confusing if you don't properly align all ur tags
+ * Why are we only able to view one of the accordion tabs at a time
+ * We notice how <a href> tags are being to open the accordion tabs. How does this work?
+ * If I zoom out in the browser while on the webpage, the image of Moony eventually becomes smaller but the image of Rain always stays the same size. Why is this?
 
 q0
-
-q0b
+ => 0
 
 q1
+ * Bootstrap because anchoring bias
