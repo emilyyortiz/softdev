@@ -3,7 +3,7 @@ thinkingEmoji: Emily Ortiz, Gabriel Thompson
 SoftDev
 K24: Mmmmm… Tasty! 
 2022-11-30
-time spent:
+time spent: 0.6hrs
 -->
 
 <!DOCTYPE html>
@@ -18,6 +18,10 @@ time spent:
         <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js" integrity="sha256-WUKHnLrIrx8dew//IpSEmPN/NT3DGAEmIePQYIEJLLs= sha384-53StQWuVbn6figscdDC3xV00aYCPEz3srBdV/QGSXw3f19og3Tq2wTRe0vJqRTEO sha512-X9O+2f1ty1rzBJOC8AXBnuNUdyJg0m8xMKmbt9I3Vu/UOWmSg5zG+dtnje4wAZrKtkopz/PEDClHZ1LXx5IeOw==" crossorigin="anonymous"></script>
     </head>
 
+    <script>
+                $(document).ready(function() { $(document).foundation();})
+            </script>
+
     <body>
         <h1>thinkingEmoji: Emily Ortiz, Gabriel Thompson</h1>
         <hr>
@@ -25,8 +29,58 @@ time spent:
         <h2>Meet our duckies!</h2>
         <div class="grid-x grid-padding-x">
             <!-- look up cell sizing -->
-            <div class="cell large-6">Emily's Ducky</div>
-            <div class="cell large-6">Gabriel's Ducky</div>
+            <div class="cell large-6">
+                <h3>Emily's Ducky</h3>
+                <img src="https://cdn.discordapp.com/attachments/893574278883196959/1047719675896799252/IMG_8248.jpg"></img>
+                <br><br>
+
+                <ul class="accordion" data-accordion role="tablist">
+                    <li class="accordion-item is-active" data-accordion-item>
+                    <a href="#collapse0" role="tab" class="accordion-title" id="collapse0-heading"> Origins of Rain </a>
+                    <div id="collapse0" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading" data-tab-content>
+                        <p>From the mother fibers, a blue ball of yarn was spun. It was packaged and shipped all the way to a woman’s doorstep. She worked tirelessly, day and night, looping yarn until a shell was created, The shell was stuffed, eyes were stitched, and Rain was born!</p>
+                    </div>
+                    </li>
+
+                    <li class="accordion-item" data-accordion-item>
+                    <a href="#collapse2" role="tab" class="accordion-title" id="collapse2-heading">Meeting Emily</a>
+                    <div id="collapse3" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading" data-tab-content>
+                        <p>Rain was presented to Emily the night of her sixteenth birthday. It was a gift from Emily’s best friend who had found Rain in the woman’s closet, and thought Rain would fare well in ducky servitude.</p>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cell large-6">
+                <h3>Gabriel's Ducky</h3>
+                <img src="https://cdn.discordapp.com/attachments/893574278883196959/1047720792617652254/0079E867-C8D2-4EDB-89CA-AD452E102B7F_1_105_c.jpeg"></img>
+                <br><br>
+
+                <ul class="accordion" data-accordion role="tablist">
+                    <li class="accordion-item is-active" data-accordion-item>
+                    <a href="#collapse0" role="tab" class="accordion-title" id="collapse0-heading"> Origins of Moony </a>
+                    <div id="collapse0" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading" data-tab-content>
+                        <p>This is <b>Moony</b>. He is Gabriel's ducky. Once upon a time, Moony was a bunch of subatomic particles floating around in space. Then, the matter that makes up Moony clumped together and became solid. Then, this solid mass wound up on this planet called Earth and somehow became cotton (I don't really know how this stuff works). Then, this cotton was collected by a company and was packaged into a coherent stuffed animal (alongside the eyes and nose, which are not cotton). Then, Moony was transported to a Kids-R-Us somewhere and purchased for me for my Xth birthday (I don't remember which one)</p>
+                    </div>
+                    </li>
+
+                    <li class="accordion-item" data-accordion-item>
+                    <a href="#collapse2" role="tab" class="accordion-title" id="collapse2-heading"> My time with Moony</a>
+                    <div id="collapse3" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading" data-tab-content>
+                        <p>In the few years I've had Moony, he's been a pretty cool ducky. He is a very torpid creature. This has its advantages and disadvantages. He doesn't require walks like dogs. However, this means he has less purpose which is a little bit depressing. I've been giving Moony SHSAT prep books in the hopes that he can attend Stuyvesant and one day have take IntroCS and get a ducky of his own. Then, Moony's ducky will do the same thing again. I, too, was once a ducky. I was promoted to "human" in 2005.</p>
+                    </div>
+                    </li>
+
+                    <li class="accordion-item" data-accordion-item>
+                    <a href="#collapse4" role="tab" class="accordion-title" id="collapse4-heading"> Moony lore </a>
+                    <div id="collapse5" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading" data-tab-content>
+                        <p>Fun fact about Moony: his actual name is Moon. This is indicated by a birthmark at the bottom of his right foot which simply reads "Moon". He is called Moony, not Moon, because when you're a young child, you're socially obligated to name everything you have something cute by making its name end with a -y or an -ie. Dog -> Doggy. Goldfish -> Goldie</p>
+                    </div>
+                    </li>
+                </ul>
+            </div>
         </div>
+
+        <br><br><br><br><br><br><br>
     </body>
 </html>
