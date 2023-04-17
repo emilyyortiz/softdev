@@ -19,6 +19,13 @@ QCC
 * Scheme syntax gets confusing and is hard to format
 * Why did we write the functions in Scheme first?
 * Not sure how to do the task in open_me.html (no firefox)
+* Got the following message:
+eortiz30@cslab3-10:~/softdev/27_js$ git add fibfac.scm
+The following paths are ignored by one of your .gitignore files:
+27_js/fibfac.scm
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
 =================================================================
 
 
