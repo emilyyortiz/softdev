@@ -1,21 +1,24 @@
-Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
-SoftDev pd0
+Elmo :: Ryan Lee, Emily Ortiz
+SoftDev pd8
 K27 -- Basic functions in JavaScript
 2023-04-03t
 
 DISCO
 -----------------------------------------------------------------
-* Ooooh, ___
-* Aaah-haa!  ____
-* Need to set language to beginner
+* function calls need to be inside parenthesis for scheme
+  * (fact 1), not fact(1)
+* JS syntax is almost exactly the same as Java
+* to print, use console.log()
+* to define a function, do 
+  function name(var){}
+* to run a JS file, you can use node filename.js in terminal
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* Why...?
-* Huh?
-* Teh whah now?
-* ...
+* Scheme syntax gets confusing and is hard to format
+* Why did we write the functions in Scheme first?
+* Not sure how to do the task in open_me.html (no firefox)
 =================================================================
 
 
