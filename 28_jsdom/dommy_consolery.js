@@ -39,6 +39,8 @@ var f = function(x) {
   return j+x;
 };
 
+console.log(f(5));
+
 
 //instantiate an object
 var o = { 'name' : 'Thluffy',
@@ -51,18 +53,22 @@ var o = { 'name' : 'Thluffy',
         };
 
 
-var addItem = function(text) {
+var addItem = function(text) {//changes the html and adds the text variable as another list element
   var list = document.getElementById("thelist");
   var newitem = document.createElement("li");
   newitem.innerHTML = text;
   list.appendChild(newitem);
 };
 
+addItem("this is text");
 
-var removeItem = function(n) {
+
+var removeItem = function(n) {//removes element at index n
   var listitems = document.getElementsByTagName('li');
   listitems[n].remove();
 };
+
+removeItem(0);
 
 
 var red = function() {
@@ -71,6 +77,8 @@ var red = function() {
     items[i].classList.add('red');
   }
 };
+
+//red();
 
 
 var stripe = function() {
@@ -84,10 +92,41 @@ var stripe = function() {
   }
 };
 
+
 //insert your implementations here for...
 // FIB
+function fib(n){
+  if (n == 0){
+      return 0;
+  } else if (n == 1) {
+      return 1;
+  } else{
+      return fib(n - 2) + fib(n - 1);
+  }
+}
+
 // FAC
+function fact(n){
+  if (n < 2){
+      return 1;
+  } 
+  return n * fact(n - 1); 
+}
+
 // GCD
+function gcd(a, b){
+  if (a % b === 0){
+    return b;
+  }
+  return gcd(b, a%b);
+}
+
+console.log(gcd(2,2));//2
+console.log(gcd(4,2));//2
+console.log(gcd(2,4));//2
+console.log(gcd(1,1));//1
+console.log(gcd(7,5));//1
+console.log(gcd(64,40));//8
 
 // In addition to the style shown above,
 //  you are encouraged to test drive the "arrow function syntax" as shown below.

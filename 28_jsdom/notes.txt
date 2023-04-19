@@ -1,0 +1,15 @@
+Elmo :: Ryan Lee, Emily Ortiz
+SoftDev pd8
+K28 -- Getting more comfortable with the dev console and the DOM
+2023-04-17m
+
+DISCO
+-----------------------------------------------------------------
+- ctrl + shift + j for console in vivaldi.
+- <script src="dommy_consolery.js"></script> links the js file to the html file.
+- Implemented functions don't change how it looks on html but prints in the console.
+- Priority matters in the styling
+
+QCC
+-----------------------------------------------------------------
+- Why would you want to initialize a function like var {} = function(){}
