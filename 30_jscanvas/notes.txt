@@ -1,0 +1,15 @@
+Elmo :: Ryan Lee, Emily Ortiz
+SoftDev pd8
+K30 -- JS Paint
+2023-04-24m
+
+DISCO
+-----------------------------------------------------------------
+* e stands for event
+* functions with (e) don't need an input, they're called when an event happens
+
+QCC
+-----------------------------------------------------------------
+* not sure what offsetX and offsetY do
+* does e alwys stand for event?
+* does js run top to bottom? we were able to use a variable before it was declared
