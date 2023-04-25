@@ -1,7 +1,7 @@
 Elmo :: Ryan Lee, Emily Ortiz
 SoftDev pd8
-K28 -- Getting more comfortable with the dev console and the DOM
-2023-04-17m
+K29 -- Getting more comfortable with the dev console and the DOM
+2023-04-19w
 
 DISCO
 -----------------------------------------------------------------
