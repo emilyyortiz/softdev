@@ -1,27 +1,7 @@
-/*
-   your PPTASK:
-   
-   Test drive each bit of code in this file,
-    and insert comments galore, indicating anything
-     you discover,
-    	have questions about,
-    		or otherwise deem notable.
-    		
-    		Write with your future self or teammates in mind.
-    		
-    		If you find yourself falling out of flow mode, consult 
-    		other teams
-    		MDN
-
-   A few comments have been pre-filled for you...
-   
-   (delete this block comment once you are done)
-*/
-
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon 
-// SoftDev pd0
+// Elmo :: Ryan Lee, Emily Ortiz 
+// SoftDev pd8
 // K28 -- Getting more comfortable with the dev console and the DOM
-// 2023-04-05w
+// 2023-04-17m
 // --------------------------------------------------
 
 
@@ -38,11 +18,11 @@ var f = function(x) {
   var j=30;
   return j + x;
 };
-
-//console.log(f(5));
+// console.log(f(5)); // prints in console when page refreshed
 
 
 //instantiate an object
+// object not dictionary?
 var o = { 'name' : 'Thluffy',
           age : 1024,
           items : [10, 20, 30, 40],
@@ -51,17 +31,20 @@ var o = { 'name' : 'Thluffy',
             return x+30;
           }
         };
-//console.log(o['age']);
+// console.log(o);
+// console.log(o['age']);
+// console.log(o[func(5)]); // does not work
 
 
 var addItem = function(text) {//changes the html and adds the text variable as another list element
-  var list = document.getElementById("thelist");
+  // document is the html file the js is attached to
+  var list = document.getElementById("thelist"); // list is wtvr is in the html tags with that id. does it include the html tags?
   var newitem = document.createElement("li");
   newitem.innerHTML = text;
   list.appendChild(newitem);
 };
 
-//addItem("this is text");
+addItem("this is text");
 
 
 var removeItem = function(n) {//removes element at index n
@@ -69,7 +52,7 @@ var removeItem = function(n) {//removes element at index n
   listitems[n].remove();
 };
 
-//removeItem(0);
+// removeItem(0); // all elements shift up
 
 
 var red = function() {
@@ -79,7 +62,8 @@ var red = function() {
   }
 };
 
-//red();
+// red();
+// only impacts list elements in the html file
 
 
 var stripe = function() {
@@ -92,7 +76,7 @@ var stripe = function() {
     }
   }
 };
-
+// when red is implemented, stripe only works on the js elements
 
 //insert your implementations here for...
 // FIB
@@ -136,9 +120,11 @@ const myFxn = (param1, param2) => {
   // body
   return retVal;
 };
-addItem(fib(5));
-addItem(fact(5));
-addItem(gcd(5,10));
+
+// addItem(fib(5));
+// addItem(fact(5));
+// addItem(gcd(5,10));
+
 var dasbut = document.getElementById("b");
 dasbut.addEventListener('click', ()=>{addItem("fib of 5 is: " + fib(5))});
 dasbut.addEventListener('click', ()=>{addItem("factorial of 5 is: " + fact(5))});

@@ -6,12 +6,21 @@ K28 -- Getting more comfortable with the dev console and the DOM
 DISCO
 -----------------------------------------------------------------
 - ctrl + shift + j for console in vivaldi.
-- <script src="dommy_consolery.js"></script> links the js file to the html file.
-- Implemented functions don't change how it looks on html but prints in the console.
-- Priority matters in the styling(the colors: bottom is most important)
+- <script src="dommy_consolery.js"></script> links the js file to the html file
+- implemented functions don't change how it looks on html but prints in the console
+- priority matters in the <style> tags
+  - the colors at the bottom take most priority
+  - a tag might say class="red green blue", but it will be red if red is the last color in the <style> tags
 - putting function call within brakets in ()=>{} does not make the function call immediately when html is run
-
 
 QCC
 -----------------------------------------------------------------
-- Why would you want to initialize a function like var {} = function(){}
+- Why would you want to initialize a function like var f = function(){}?
+- You can list a function as a key/value pair in a dictionary?
+  - How would you run that?
+- var o looks like a dictionary but it's considered an object? Are objects more general? What is an object?
+- Not sure what syntax for this does
+  const myFxn = (param1, param2) => {
+    // body
+    return retVal;
+  }; 
