@@ -1,0 +1,12 @@
+Yuki Feng, Emily Ortiz
+SoftDev p8
+K33 - 
+2023-04-27th
+
+DISCO
+* when you click on a table cell, it sends an alert with the text inside the cell on top of the other elements on the page
+* getElementsByTagName() returns an array(?) of the elements with that tag
+* this refers to whatever has been clicked on
+
+QCC
+* do we have to initialize variables each time we use them in a diff function? x isn't reinitialized in 2/events.js line 16
